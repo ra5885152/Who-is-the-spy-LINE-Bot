@@ -94,7 +94,7 @@ LINE Bot 有每月免費訊息的限制，如果 LINE Bot 為免費版 (輕用�
 - [line-bot-sdk-python](https://github.com/line/line-bot-sdk-python)
 - [LINE Developers](https://developers.line.biz/en/docs/messaging-api/)
 - [ngrok](https://ngrok.com/)
-- [Image source form spy-family](https://spy-family.net/)
+- [Image source from spy-family](https://spy-family.net/)
 
 ## ****Contributors****
 
