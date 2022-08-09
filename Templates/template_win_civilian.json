@@ -1,0 +1,75 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "md",
+    "contents": [
+      {
+        "type": "text",
+        "text": "遊戲結束",
+        "size": "xl",
+        "weight": "bold",
+        "align": "center",
+        "margin": "none",
+        "offsetBottom": "none"
+      },
+      {
+        "type": "text",
+        "text": "平民獲勝！",
+        "weight": "bold",
+        "margin": "lg",
+        "flex": 0,
+        "size": "xl",
+        "color": "#6ED3EFFF"
+      },
+      {
+        "type": "text",
+        "text": "臥底們需要再加油喔！",
+        "wrap": true,
+        "color": "#aaaaaa",
+        "size": "lg",
+        "align": "center"
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "button",
+        "style": "primary",
+        "color": "#85C1E9",
+        "action": {
+          "type": "postback",
+          "label": "角色揭曉",
+          "data": "角色揭曉"
+        },
+        "margin": "xs"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "postback",
+          "label": "角色詞揭曉",
+          "data": "角色詞揭曉"
+        },
+        "margin": "sm",
+        "style": "primary",
+        "color": "#AFDCEC"
+      },
+      {
+        "type": "button",
+        "style": "primary",
+        "color": "#7EACB0CC",
+        "action": {
+          "type": "message",
+          "label": "再來一局",
+          "text": "開啟遊戲"
+        },
+        "margin": "sm"
+      }
+    ]
+  }
+}

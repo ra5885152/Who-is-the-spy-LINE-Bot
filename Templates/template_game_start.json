@@ -1,0 +1,103 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "遊戲開始",
+            "margin": "none",
+            "size": "xxl",
+            "decoration": "none",
+            "weight": "bold"
+          }
+        ],
+        "borderWidth": "none",
+        "alignItems": "center"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [
+          {
+            "type": "icon",
+            "url": "https://as1.ftcdn.net/v2/jpg/03/39/80/02/1000_F_339800286_CQ0J5QX2k3m6jr9ftvT8TXxbuOGVy5Y0.jpg",
+            "size": "xl",
+            "margin": "xs",
+            "offsetTop": "md",
+            "offsetStart": "xs"
+          },
+          {
+            "type": "text",
+            "text": "請按下方按鈕跳轉到私聊，並輸入「我的角色詞」。",
+            "wrap": true,
+            "offsetStart": "sm",
+            "offsetBottom": "md"
+          }
+        ],
+        "margin": "lg"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [
+          {
+            "type": "icon",
+            "url": "https://as1.ftcdn.net/v2/jpg/01/34/46/12/1000_F_134461232_3ATSztAoI4mKQwKo22uF2VbClXbNQfvK.jpg",
+            "size": "xl",
+            "offsetTop": "sm",
+            "offsetStart": "xs"
+          },
+          {
+            "type": "text",
+            "text": "這裡放平民臥底白板數量",
+            "wrap": true,
+            "offsetStart": "sm",
+            "offsetBottom": "md"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [
+          {
+            "type": "text",
+            "text": "❣",
+            "flex": 1,
+            "size": "xl",
+            "offsetTop": "xs"
+          },
+          {
+            "type": "text",
+            "text": "描述時，請以「回答」作為開頭文字。",
+            "wrap": true,
+            "flex": 9,
+            "offsetBottom": "md"
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "uri": "https://line.me/ti/p/@425fithl",
+          "label": "我的角色詞"
+        },
+        "style": "secondary"
+      }
+    ],
+    "alignItems": "center"
+  }
+}

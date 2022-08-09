@@ -1,0 +1,67 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "md",
+    "contents": [
+      {
+        "type": "text",
+        "size": "xl",
+        "weight": "bold",
+        "text": "誰是臥底？"
+      },
+      {
+        "type": "text",
+        "text": "請選擇心中最懷疑的那個人\n點擊玩家名稱來進行投票",
+        "wrap": true,
+        "color": "#aaaaaa",
+        "size": "xs"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [
+          {
+            "type": "text",
+            "text": "玩家名稱",
+            "color": "#aaaaaa",
+            "align": "center",
+            "size": "sm",
+            "flex": 7
+          },
+          {
+            "type": "text",
+            "text": "票數",
+            "size": "sm",
+            "align": "center",
+            "color": "#aaaaaa",
+            "flex": 3
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": []
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "button",
+        "style": "primary",
+        "color": "#B8EAD7FF",
+        "margin": "none",
+        "action": {
+          "type": "postback",
+          "label": "誰沒投票",
+          "data": "誰沒投票"
+        }
+      }
+    ]
+  }
+}

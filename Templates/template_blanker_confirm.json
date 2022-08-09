@@ -1,0 +1,52 @@
+{
+  "type": "bubble",
+  "size": "kilo",
+  "body": {
+    "type": "box",
+    "layout": "baseline",
+    "contents": [
+      {
+        "type": "text",
+        "text": "是否開啟白板模式？",
+        "align": "center",
+        "size": "lg"
+      }
+    ],
+    "offsetTop": "sm"
+  },
+  "footer": {
+    "type": "box",
+    "layout": "horizontal",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "是",
+          "text": "是"
+        },
+        "offsetBottom": "none"
+      },
+      {
+        "type": "separator",
+        "margin": "none"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "否",
+          "text": "否"
+        },
+        "offsetBottom": "none"
+      }
+    ],
+    "offsetTop": "none",
+    "paddingAll": "none"
+  },
+  "styles": {
+    "footer": {
+      "separator": true
+    }
+  }
+}

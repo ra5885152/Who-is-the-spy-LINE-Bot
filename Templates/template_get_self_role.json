@@ -1,0 +1,45 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "請點擊按鈕，取得角色詞。",
+        "weight": "bold",
+        "size": "md",
+        "align": "center"
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "style": "link",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "我的角色詞",
+              "text": "我的角色詞"
+            },
+            "color": "#FFFFFF"
+          }
+        ],
+        "flex": 0,
+        "backgroundColor": "#B7D1DA",
+        "cornerRadius": "lg"
+      }
+    ],
+    "flex": 0
+  }
+}

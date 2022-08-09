@@ -1,0 +1,15 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "請玩家開始描述角色詞",
+        "align": "center",
+        "wrap": true
+      }
+    ]
+  }
+}

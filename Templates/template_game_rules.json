@@ -1,0 +1,187 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "遊戲規則",
+            "weight": "bold",
+            "size": "md",
+            "align": "center"
+          },
+          {
+            "type": "separator",
+            "margin": "md"
+          },
+          {
+            "type": "text",
+            "text": "1. 玩家人數為 4-16 人，包含 「平民」、「臥底」和「白板」。",
+            "wrap": true,
+            "margin": "md",
+            "size": "sm"
+          },
+          {
+            "type": "separator",
+            "margin": "md"
+          },
+          {
+            "type": "text",
+            "text": "2. 「臥底」與「平民」會得到不同的單詞，而「白板」不會得到單詞。",
+            "wrap": true,
+            "margin": "md",
+            "size": "sm"
+          },
+          {
+            "type": "separator",
+            "margin": "md"
+          },
+          {
+            "type": "text",
+            "text": "3. 玩家領取完身分後，即開始遊戲。",
+            "wrap": true,
+            "margin": "md",
+            "size": "sm"
+          },
+          {
+            "type": "separator",
+            "margin": "md"
+          },
+          {
+            "type": "text",
+            "text": "4. 每位玩家輪流描述詞彙，可以是任意文字，切記不可提及和單詞相同的字。",
+            "wrap": true,
+            "margin": "md",
+            "size": "sm"
+          },
+          {
+            "type": "separator",
+            "margin": "md"
+          },
+          {
+            "type": "text",
+            "text": "5. 描述完畢後，進行投票表決誰是臥底，得票者最多出局。",
+            "wrap": true,
+            "margin": "md",
+            "size": "sm"
+          },
+          {
+            "type": "separator",
+            "margin": "md"
+          },
+          {
+            "type": "text",
+            "text": "6. 若多人得票數相同，則再次對平票玩家們重新投票。",
+            "wrap": true,
+            "margin": "md",
+            "size": "sm"
+          },
+          {
+            "type": "separator",
+            "margin": "md"
+          },
+          {
+            "type": "text",
+            "text": "7. 「臥底」需掩飾身分並且找到同伴，合力將「平民」及「白板」驅逐遊戲。",
+            "wrap": true,
+            "margin": "md",
+            "size": "sm"
+          }
+        ],
+        "paddingAll": "sm",
+        "margin": "none",
+        "offsetEnd": "none",
+        "paddingBottom": "lg"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "icon",
+                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
+                "offsetStart": "xxl"
+              },
+              {
+                "type": "icon",
+                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
+                "offsetStart": "xxl"
+              },
+              {
+                "type": "icon",
+                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
+                "offsetStart": "xxl"
+              },
+              {
+                "type": "text",
+                "text": "勝利條件",
+                "weight": "bold",
+                "size": "md",
+                "align": "center",
+                "margin": "md"
+              },
+              {
+                "type": "icon",
+                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
+                "offsetEnd": "xxl"
+              },
+              {
+                "type": "icon",
+                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
+                "offsetEnd": "xxl"
+              },
+              {
+                "type": "icon",
+                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
+                "offsetEnd": "xxl"
+              }
+            ],
+            "margin": "md"
+          },
+          {
+            "type": "separator",
+            "margin": "md"
+          },
+          {
+            "type": "text",
+            "text": "「平民」：「臥底」全數出局。",
+            "wrap": true,
+            "margin": "md",
+            "size": "sm"
+          },
+          {
+            "type": "text",
+            "text": "「白板」：與平民共同勝利或失敗。",
+            "wrap": true,
+            "margin": "md",
+            "size": "sm"
+          },
+          {
+            "type": "text",
+            "text": "「臥底」：「臥底」與「平民」人數各為一位或「臥底」大於「平民」人數。",
+            "wrap": true,
+            "margin": "md",
+            "size": "sm"
+          }
+        ],
+        "backgroundColor": "#FFFBE0",
+        "spacing": "none",
+        "margin": "md",
+        "cornerRadius": "md",
+        "paddingAll": "sm",
+        "offsetTop": "xs",
+        "paddingBottom": "lg"
+      }
+    ],
+    "margin": "none"
+  }
+}
