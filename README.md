@@ -59,9 +59,9 @@ python main.py
 
 7. 點擊群組的【我的角色詞】，自動轉跳至與 LINE Bot 的一對一聊天室，並點擊【我的角色詞】，即獲取角色詞。
 
-	<img src="https://user-images.githubusercontent.com/106053450/183679589-ac2be301-2bfe-48dd-b664-a9e789182416.png" width="350">
+	<img src="https://user-images.githubusercontent.com/106053450/183690238-1f45ea40-0e48-4cb2-8f78-cca663c87ee8.jpg" width="350">
 
-	<img src="https://user-images.githubusercontent.com/106053450/183679634-0db429c9-3d31-4df6-8614-79dee171cbd9.png" width="350">
+	<img src="https://user-images.githubusercontent.com/106053450/183689842-747ca8ff-eb16-447e-bbe1-4194ff7e0e16.jpg" height="175.84">
 
 8. LINE Bot 會輪流請玩家描述角色詞，當玩家進行描述時，必須在描述最前面加上**回答**。
 
