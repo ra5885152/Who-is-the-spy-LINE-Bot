@@ -57,7 +57,7 @@ python main.py
 
 	<img src="https://user-images.githubusercontent.com/106053450/183679553-c78ff985-cac7-4ec6-9096-a8c4d7e4a77c.png" width="350">
 
-7. 點擊群組的【我的角色詞】，介面轉跳至一對一的 LINE Bot，並點擊【我的角色詞】，即獲取角色詞。
+7. 點擊群組的【我的角色詞】，自動轉跳至與 LINE Bot 的一對一聊天室，並點擊【我的角色詞】，即獲取角色詞。
 
 	<img src="https://user-images.githubusercontent.com/106053450/183679589-ac2be301-2bfe-48dd-b664-a9e789182416.png" width="350">
 
